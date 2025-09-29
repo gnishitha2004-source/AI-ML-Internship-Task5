@@ -1,0 +1,20 @@
+# Task 5 - Decision Trees and Random Forests
+
+This repo contains code and artifacts for Task 5: training Decision Tree and Random Forest classifiers.
+
+## Files
+- notebook.ipynb or script.py - main code (Decision tree, Random forest, cross-validation, visualizations)
+- artifacts/
+  - best_decision_tree.joblib
+  - random_forest.joblib
+  - feature_importances.csv
+  - report.txt
+
+## How to run
+1. Upload `heart.csv` (or your dataset) to the working directory, or adjust `csv_filename` variable.
+2. Run the notebook in Google Colab.
+3. Inspect `artifacts` for saved models and results.
+
+## Notes
+- If you don't have a CSV, the script uses sklearn's breast cancer dataset as a fallback.
+- Visualizations use matplotlib and seaborn.
